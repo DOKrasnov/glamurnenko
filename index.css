@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-family: "Oranienbaum";
+  text-transform: uppercase;
+}
+
+h2 {
+  padding-top: 1.8em;
+  padding-bottom: 1em;
+}
+
+.main-header-links {
+  padding-top: 40px;
+}
+
+.hero-mission span {
+  font-family: "Oranienbaum";
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.hero-mission h1 {
+  font-size: 16px;
+  color: #cdb380;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+h3,
+h4 {
+  font-family: "Roboto";
+}
+
+h4 {
+  font-size: 12px;
+  color: #aaa;
+  padding-top: 6px;
+}
+
+body {
+  font-family: "Oranienbaum" sans-serif;
+
+  background-image: url(img/bg-main.png);
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.main-container {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+/* .main-header {
+  margin: 0 auto; 
+  height: 7.8rem;
+} */
+
+.nav-link:link,
+.nav-link:hover,
+.nav-link:active,
+.nav-link:visited {
+  font-family: "Oranienbaum";
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.nav-toggler-button {
+  border: none;
+  background-color: transparent;
+}
+
+main {
+  background-color: #fff;
+}
+
+.section-hero {
+  padding: 130px 0 200px 0;
+}
+
+.stylish-header {
+  text-transform: uppercase;
+}
+
+.section-ambulance-stylish-help p {
+  text-transform: uppercase;
+  padding: 0 10em;
+  text-justify: auto;
+  text-align: center;
+}
+
+/* .stylish-help {
+  padding-top: 40px;
+  padding-bottom: 30px;
+} */
+
+.how-it-works p {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #aaa;
+  padding-bottom: 1em;
+}
+
+.how-it-works .procedure p:last-child {
+  padding: 0 4em;
+}
+
+.new-table {
+  margin: 0 auto;
+  width: 90%;
+}
