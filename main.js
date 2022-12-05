@@ -7,9 +7,11 @@ const stickyHeaderObserver = new IntersectionObserver(
 
     if (ent.isIntersecting) {
       $(".main-header").removeClass("sticky-top");
+      $(".main-header").addClass("static-top");
     }
     if (!ent.isIntersecting) {
       $(".main-header").addClass("sticky-top");
+      $(".main-header").removeClass("static-top");
     }
   },
   {

@@ -1,3 +1,36 @@
+@media screen and (max-width: 991px) {
+  .sticky-top .nav-link:link,
+  .sticky-top .nav-link:visited,
+  .sticky-top .nav-link:hover,
+  .sticky-top .nav-link:active {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section-ambulance-stylish-help .section-header::after {
+    top: 0%;
+    left: -10%;
+    transform: rotate(351deg);
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 790px) {
+  .section-ambulance-stylish-help .section-header::after {
+    top: 8%;
+    left: -24%;
+    transform: rotate(324deg);
+  }
+}
+
+@media screen and (min-width: 791px) {
+  .section-ambulance-stylish-help .section-header::after {
+    top: 17%;
+    left: -10%;
+    transform: rotate(324deg);
+  }
+}
+
 /**************************************/
 /*  RESET DEFAULT STYLES  */
 
@@ -79,18 +112,17 @@ body {
   padding-top: 3rem;
 }
 
-.main-header-links {
-  position: relative;
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
 }
 
-.main-header .nav-link:link,
-.main-header .nav-link:visited,
-.main-header .nav-link:hover,
-.main-header .nav-link:active {
+.nav-link:link,
+.nav-link:visited,
+.nav-link:hover,
+.nav-link:active {
   font-family: "Oranienbaum";
   font-size: 20px;
   color: white;
-  background-color: transparent;
   text-transform: uppercase;
 }
 
@@ -99,17 +131,17 @@ body {
   background-color: transparent;
 }
 
-.sticky-top {
-  width: 100%;
-  height: 3rem;
-  padding-top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+.static-top .nav-link:link,
+.static-top .nav-link:visited,
+.static-top .nav-link:hover,
+.static-top .nav-link:active {
+  background-color: transparent;
 }
 
-.sticky-top .nav-link:link,
-.sticky-top .nav-link:visited,
-.sticky-top .nav-link:hover,
-.sticky-top .nav-link:active {
+.sticky-top {
+  width: 100%;
+  height: 3.5rem;
+  padding-top: 0;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -121,6 +153,7 @@ body {
 .phones {
   flex-flow: column;
   min-width: 110px;
+  font-size: 16px;
 }
 
 /**************************************/
@@ -158,12 +191,12 @@ main {
 .section-ambulance-stylish-help .section-header::after {
   content: "Новинка";
   position: absolute;
-  top: 17%;
-  left: -10%;
+  /* top: 17%;
+  left: -10%; */
   padding: 0.1rem 8rem;
   color: #fff;
   background-color: #f00;
-  transform: rotate(324deg);
+  /* transform: rotate(324deg); */
 }
 
 .section-ambulance-stylish-help .text {
@@ -334,9 +367,9 @@ main {
   padding-bottom: 80px;
 }
 
-.carousel-img {
+/* .carousel-img {
   max-width: 250px;
-}
+} */
 
 .carousel-text {
   font-family: "Roboto";
