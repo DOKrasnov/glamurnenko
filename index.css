@@ -150,6 +150,10 @@ body {
   font-family: "Oranienbaum";
 }
 
+.social-links a img:hover {
+  transform: scale(1.1);
+}
+
 .phones {
   flex-flow: column;
   min-width: 110px;
@@ -191,12 +195,9 @@ main {
 .section-ambulance-stylish-help .section-header::after {
   content: "Новинка";
   position: absolute;
-  /* top: 17%;
-  left: -10%; */
   padding: 0.1rem 8rem;
   color: #fff;
   background-color: #f00;
-  /* transform: rotate(324deg); */
 }
 
 .section-ambulance-stylish-help .text {
@@ -367,10 +368,6 @@ main {
   padding-bottom: 80px;
 }
 
-/* .carousel-img {
-  max-width: 250px;
-} */
-
 .carousel-text {
   font-family: "Roboto";
   font-weight: 500;
@@ -395,6 +392,11 @@ main {
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
+}
+
+.button-to-top button:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 .button-to-top button::after {
